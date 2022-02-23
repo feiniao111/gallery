@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-23T02:41:14.707Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="VWvfuJahdLXH-TNDu18e" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-23T02:46:22.846Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="NqVBg4zbkR-jhR7tH6Os" version="16.6.2" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
         <mxCell id="77e6c97f196da883-11" value="自动注入到项目页面中（即可以获取到页面DOM）" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-3" vertex="1">
           <mxGeometry x="30" y="110" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZpYfH8FNgX7Q62mpjmH5-7" value="调用DPS算法，遍历页面DOM生成骨架屏HTML。同时替换项目页面内容" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-3">
+        <mxCell id="ZpYfH8FNgX7Q62mpjmH5-7" value="调用&lt;font color=&quot;#ff3333&quot;&gt;DPS&lt;/font&gt;算法，遍历页面DOM生成骨架屏HTML。同时替换项目页面内容" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="30" y="280" width="110" height="90" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-4" value="插件popup弹窗" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
@@ -37,7 +37,7 @@
         <mxCell id="77e6c97f196da883-12" value="弹出插件popup窗口" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-4" vertex="1">
           <mxGeometry x="30" y="170" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZpYfH8FNgX7Q62mpjmH5-6" value="点击开始生成按钮" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-4">
+        <mxCell id="ZpYfH8FNgX7Q62mpjmH5-6" value="点击`开始生成`按钮" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-4">
           <mxGeometry x="30" y="260" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZpYfH8FNgX7Q62mpjmH5-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="77e6c97f196da883-4" target="ZpYfH8FNgX7Q62mpjmH5-6">
@@ -52,7 +52,7 @@
         <mxCell id="ZpYfH8FNgX7Q62mpjmH5-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-4" source="ZpYfH8FNgX7Q62mpjmH5-20" target="ZpYfH8FNgX7Q62mpjmH5-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZpYfH8FNgX7Q62mpjmH5-20" value="编辑生成结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-4">
+        <mxCell id="ZpYfH8FNgX7Q62mpjmH5-20" value="点击`编辑生成结果`按钮" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-4">
           <mxGeometry x="30" y="490" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZpYfH8FNgX7Q62mpjmH5-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-4" source="77e6c97f196da883-17" target="ZpYfH8FNgX7Q62mpjmH5-20">
